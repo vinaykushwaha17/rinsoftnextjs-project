@@ -697,26 +697,8 @@ ul {
 
 .cta-section {
   padding: 120px 0;
-  position: relative;
   text-align: center;
-  background-image: url('/cta-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-.cta-section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.55);
-  z-index: 0;
-}
-
-.cta-section > * {
-  position: relative;
-  z-index: 1;
+  background: #111d27;
 }
 
 .cta-container {
