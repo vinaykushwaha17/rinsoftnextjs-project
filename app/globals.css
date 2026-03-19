@@ -696,9 +696,27 @@ ul {
 }
 
 .cta-section {
-  padding: 100px 0;
-  background: linear-gradient(135deg, #1a0a2e, #2d1b4e, #1a2d3d);
+  padding: 120px 0;
+  position: relative;
   text-align: center;
+  background-image: url('/cta-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(26, 10, 46, 0.82), rgba(45, 27, 78, 0.78), rgba(26, 45, 61, 0.82));
+  z-index: 0;
+}
+
+.cta-section > * {
+  position: relative;
+  z-index: 1;
 }
 
 .cta-container {
