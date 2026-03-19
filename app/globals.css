@@ -698,7 +698,9 @@ ul {
 .cta-section {
   padding: 120px 0;
   text-align: center;
-  background: #111d27;
+  background: linear-gradient(135deg, #0d1f2d 0%, #112233 50%, #0f1d2e 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .cta-container {
